@@ -17,6 +17,5 @@
 # Use for e2e test of --exechook-command.
 # This option takes no command arguments, so requires a wrapper script.
 
-sleep 3
-cat file > exechook
-echo "ENVKEY=$ENVKEY" > exechook-env
+date >> /var/log/runs
+exit 0
