@@ -17,5 +17,5 @@
 # Use for e2e test of --exechook-command.
 # This option takes no command arguments, so requires a wrapper script.
 
-date >> /var/log/runs
+date >> /git/dates
 exit 0
