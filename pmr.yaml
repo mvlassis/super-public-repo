@@ -9,8 +9,8 @@ profiles:
   contributors:
   - name: kimonas@canonical.com
     role: admin
-  - name: admin
-    role: edit
+  # - name: manos
+  #   role: edit
   - name: andreea@canonical.com
     role: view
 - name: data-engineers
