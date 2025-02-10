@@ -9,23 +9,23 @@ profiles:
   contributors:
   - name: kimonas@canonical.com
     role: admin
-  # - name: admin
-  #   role: edit
+  - name: admin
+    role: edit
   - name: andreea@canonical.com
     role: view
-- name: data-engineers
-  owner:
-    kind: User
-    name: admin
-  contributors:
-  - name: daniela@canonical.com
-    role: edit
-  - name: noha@canonical.com
-    role: edit
-  - name: manos@canonical.com
-    role: view
-  - name: orfeas@canonical.com
-    role: view
+# - name: data-engineers
+#   owner:
+#     kind: User
+#     name: admin
+#   contributors:
+#   - name: daniela@canonical.com
+#     role: edit
+#   - name: noha@canonical.com
+#     role: edit
+#   - name: manos@canonical.com
+#     role: view
+#   - name: orfeas@canonical.com
+#     role: view
 - name: manos
   owner:
     kind: User
